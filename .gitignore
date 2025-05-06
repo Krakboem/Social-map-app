@@ -1,0 +1,61 @@
+# Node modules
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# macOS system files
+.DS_Store
+
+# Environment variables
+.env
+.env.local
+.env.*.local
+
+# Expo
+.expo/
+.expo-shared/
+
+# Android
+android/
+*.keystore
+*.jks
+
+# iOS
+ios/
+*.pbxuser
+*.mode1v3
+*.mode2v3
+*.perspectivev3
+xcuserdata/
+*.xcuserstate
+*.xcworkspace
+Pods/
+DerivedData/
+build/
+
+# Firebase secrets (if using service accounts)
+firebase-adminsdk.json
+*.secret.*
+
+# VS Code settings
+.vscode/
+
+# Metro bundler cache
+metro-cache/
+.cache/
+
+# Logs
+logs/
+*.log
+
+# IDE configs
+.idea/
+*.sw?
+*.sublime*
+
+# Misc
+*.bak
+*.tmp
+*.orig
+*.swp
